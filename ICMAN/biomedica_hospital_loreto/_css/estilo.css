@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(0,128,128,1);
+	background-image: url(../_img/fondo.jpg);
+}
+
+table {
+	background-color: rgba(32,178,170,1);
+	border-collapse: collapse;
+	width: 90%;
+}
+
+th, td {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: rgba(143,188,143,1);
+  color: black;
+}
+tr:hover {
+	background-color: rgba(85,107,47,1);
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+
+tr:nth-child(even):hover{
+	background-color: rgba(85,107,47,1);
+}
+
+fieldset{
+	 background-color: rgba(107,142,35,1);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,1);
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(220,220,220,1);
+	color: black;
+}
+.active{
+	background-color: rgba(220,220,220,1);
+	color: black;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,1);
+	
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:rgba(255,255,255,1);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color:  rgba(175, 237, 128);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
